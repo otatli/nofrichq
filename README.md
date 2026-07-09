@@ -1,6 +1,6 @@
-# nofrichq.com landing page v3 bilingual
+# nofrichq.com landing page v4 bilingual Turkish refined
 
-Includes English and Turkish pages.
+Includes English and natural Turkish pages.
 
 ## Structure
 
@@ -11,14 +11,12 @@ Includes English and Turkish pages.
 - `/styles.css` shared styles
 - `/Ogulcan_Tatli_CV.pdf` CV PDF
 
-## URLs
+## Turkish wording updates
 
-- `/` English profile
-- `/lifeos.html` English LifeOS
-- `/tr/` Turkish profile
-- `/tr/lifeos.html` Turkish LifeOS
-
-## Deploy
-
-Upload all files to Cloudflare, or push to the connected GitHub repository.
-No build command is required.
+Literal translations were replaced with more natural Turkish labels:
+- Technology Stack -> Kullanılan Teknolojiler
+- Core Focus -> Uzmanlık Alanları
+- Selected Experience -> Deneyim Özeti
+- Current Project -> Üzerinde Çalıştığım Proje
+- Engineering Practices -> Geliştirme Yaklaşımı
+- Status -> Güncel Durum
