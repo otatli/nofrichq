@@ -1,28 +1,18 @@
-# nofrichq.com landing page
+# nofrichq.com landing page v2
 
-Minimal static landing page for Oğulcan Tatlı.
+Includes:
 
-## Files
+- Home page: `index.html`
+- LifeOS page: `lifeos.html`
+- Shared styles: `styles.css`
+- CV PDF: `Ogulcan_Tatli_CV.pdf`
 
-- `index.html`
-- `styles.css`
-- `Ogulcan_Tatli_CV.pdf`
+## Deploy
 
-## Quick local preview
+Upload all files to the existing Cloudflare Workers/Pages project, or push them to the connected GitHub repository.
 
-Open `index.html` in a browser.
+## URLs
 
-## Deploy options
-
-### GitHub Pages
-1. Create a public repository, for example `nofrichq-landing`.
-2. Upload these files to the repository root.
-3. Go to repository Settings > Pages.
-4. Set source to the main branch root.
-5. Add your custom domain: `nofrichq.com`.
-6. Configure DNS records at your domain provider according to GitHub Pages instructions.
-
-### Cloudflare Pages / Netlify / Vercel
-Upload this folder as a static site.
-No build command is needed.
-Publish directory: `/` or repository root.
+- `/` profile landing
+- `/lifeos.html` LifeOS project page
+- `/Ogulcan_Tatli_CV.pdf` downloadable CV
