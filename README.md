@@ -19,3 +19,7 @@ Clean root-domain structure for nofrichq.com.
 ## Notes
 
 This version uses folder-based `index.html` files for clean URLs instead of `.html` URLs.
+
+## v6 update
+
+All GitHub links now point to `https://github.com/nofrichq`.
