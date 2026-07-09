@@ -1,22 +1,21 @@
-# nofrichq.com landing page v4 bilingual Turkish refined
+# nofrichq.com clean site
 
-Includes English and natural Turkish pages.
+Clean root-domain structure for nofrichq.com.
 
-## Structure
+## URLs
 
-- `/index.html` English profile page
-- `/lifeos.html` English LifeOS page
-- `/tr/index.html` Turkish profile page
-- `/tr/lifeos.html` Turkish LifeOS page
-- `/styles.css` shared styles
-- `/Ogulcan_Tatli_CV.pdf` CV PDF
+- `/` English profile
+- `/lifeos/` English LifeOS page
+- `/tr/` Turkish profile
+- `/tr/lifeos/` Turkish LifeOS page
+- `/assets/Ogulcan_Tatli_CV.pdf` downloadable CV
 
-## Turkish wording updates
+## Cloudflare Pages settings
 
-Literal translations were replaced with more natural Turkish labels:
-- Technology Stack -> Kullanılan Teknolojiler
-- Core Focus -> Uzmanlık Alanları
-- Selected Experience -> Deneyim Özeti
-- Current Project -> Üzerinde Çalıştığım Proje
-- Engineering Practices -> Geliştirme Yaklaşımı
-- Status -> Güncel Durum
+- Framework preset: None
+- Build command: leave empty
+- Output directory: `/` or leave empty/root depending on UI
+
+## Notes
+
+This version uses folder-based `index.html` files for clean URLs instead of `.html` URLs.
