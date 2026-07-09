@@ -1,18 +1,24 @@
-# nofrichq.com landing page v2
+# nofrichq.com landing page v3 bilingual
 
-Includes:
+Includes English and Turkish pages.
 
-- Home page: `index.html`
-- LifeOS page: `lifeos.html`
-- Shared styles: `styles.css`
-- CV PDF: `Ogulcan_Tatli_CV.pdf`
+## Structure
 
-## Deploy
-
-Upload all files to the existing Cloudflare Workers/Pages project, or push them to the connected GitHub repository.
+- `/index.html` English profile page
+- `/lifeos.html` English LifeOS page
+- `/tr/index.html` Turkish profile page
+- `/tr/lifeos.html` Turkish LifeOS page
+- `/styles.css` shared styles
+- `/Ogulcan_Tatli_CV.pdf` CV PDF
 
 ## URLs
 
-- `/` profile landing
-- `/lifeos.html` LifeOS project page
-- `/Ogulcan_Tatli_CV.pdf` downloadable CV
+- `/` English profile
+- `/lifeos.html` English LifeOS
+- `/tr/` Turkish profile
+- `/tr/lifeos.html` Turkish LifeOS
+
+## Deploy
+
+Upload all files to Cloudflare, or push to the connected GitHub repository.
+No build command is required.
